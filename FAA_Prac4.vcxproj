@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AlgoritmosBusqueda.cpp" />
     <ClCompile Include="FAA_Prac4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlgoritmosBusqueda.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
