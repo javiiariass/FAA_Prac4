@@ -128,6 +128,36 @@ void ejecutar_prueba(
      //           << ", Correcto: " << (correcto ? "SI" : "NO") << std::endl;
 }
 
+// --- Nueva Función: Encontrar Elementos Únicos (Actividad 5.3) ---
+std::vector<int> encontrarElementosUnicos(std::vector<int> arr) { // Recibe copia para no modificar el original si se usa fuera de un contexto de prueba específico
+    std::vector<int> unicos;
+    if (arr.empty()) {
+        return unicos;
+    }
+
+    // 1. Ordenar el vector (O(n log n))
+    std::sort(arr.begin(), arr.end());
+
+    // 2. Iterar y contar (O(n))
+    int n = arr.size();
+    int i = 0;
+    while (i < n) {
+        int j = i;
+        // Contar ocurrencias del elemento actual arr[i]
+        while (j < n && arr[j] == arr[i]) {
+            j++;
+        }
+        // Si el número de ocurrencias es 1, añadir al resultado
+        if (j - i == 1) {
+            unicos.push_back(arr[i]);
+        }
+        // Mover al siguiente elemento diferente
+        i = j;
+    }
+
+    return unicos; // El resultado ya está ordenado
+}
+
 
 int main()
 {
@@ -282,7 +312,49 @@ int main()
     csv_inexistentes.close();
     csv_interpolacion.close();
 
-    std::cout << "Pruebas completadas. Resultados guardados en archivos CSV separados." << std::endl;
+    std::cout << "Pruebas de busqueda completadas. Resultados guardados en archivos CSV separados." << std::endl << std::endl;
+
+    // --- Pruebas para Actividad 5.3: Encontrar Elementos Únicos ---
+    std::cout << "--- Pruebas Actividad 5.3: Encontrar Elementos Unicos ---" << std::endl;
+
+    std::vector<int> prueba1 = {1, 2, 3, 4, 5}; // Todos únicos
+    std::vector<int> resultado1 = encontrarElementosUnicos(prueba1);
+    std::cout << "Prueba 1 ({1, 2, 3, 4, 5}): ";
+    for(int x : resultado1) std::cout << x << " ";
+    std::cout << std::endl; // Esperado: 1 2 3 4 5
+
+    std::vector<int> prueba2 = {1, 1, 2, 3, 3, 3, 4, 5, 5}; // Mezcla
+    std::vector<int> resultado2 = encontrarElementosUnicos(prueba2);
+    std::cout << "Prueba 2 ({1, 1, 2, 3, 3, 3, 4, 5, 5}): ";
+    for(int x : resultado2) std::cout << x << " ";
+    std::cout << std::endl; // Esperado: 2 4
+
+    std::vector<int> prueba3 = {2, 2, 2, 2}; // Todos repetidos
+    std::vector<int> resultado3 = encontrarElementosUnicos(prueba3);
+    std::cout << "Prueba 3 ({2, 2, 2, 2}): ";
+    for(int x : resultado3) std::cout << x << " ";
+    std::cout << std::endl; // Esperado: (nada)
+
+    std::vector<int> prueba4 = {}; // Vacío
+    std::vector<int> resultado4 = encontrarElementosUnicos(prueba4);
+    std::cout << "Prueba 4 ({}): ";
+    for(int x : resultado4) std::cout << x << " ";
+    std::cout << std::endl; // Esperado: (nada)
+
+    std::vector<int> prueba5 = {5}; // Un solo elemento
+    std::vector<int> resultado5 = encontrarElementosUnicos(prueba5);
+    std::cout << "Prueba 5 ({5}): ";
+    for(int x : resultado5) std::cout << x << " ";
+    std::cout << std::endl; // Esperado: 5
+
+    std::vector<int> prueba6 = {3, 1, 4, 1, 5, 9, 2, 6, 5}; // Desordenado
+    std::vector<int> resultado6 = encontrarElementosUnicos(prueba6);
+    std::cout << "Prueba 6 ({3, 1, 4, 1, 5, 9, 2, 6, 5}): ";
+    for(int x : resultado6) std::cout << x << " ";
+    std::cout << std::endl; // Esperado: 2 3 4 6 9
+
+    std::cout << "----------------------------------------------------" << std::endl;
+
 
     return 0;
 }
