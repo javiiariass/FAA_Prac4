@@ -1,0 +1,39 @@
+﻿  AlgoritmosBusqueda.cpp
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\AlgoritmosBusqueda.cpp(307,28): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\AlgoritmosBusqueda.cpp(351,28): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  EstudioEmpirico.cpp
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(105,113): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(116,113): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(127,125): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(195,133): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(206,133): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(218,145): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(275,84): warning C4267: 'argumento': conversión de 'size_t' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(287,125): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(298,125): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(309,137): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(398,124): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(409,124): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(420,136): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(467,128): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(542,125): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(553,125): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(564,137): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(653,125): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(661,125): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(669,137): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(678,125): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(686,125): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(694,137): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(796,129): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(807,141): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(832,138): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\Github\UNI\FAA_Prac4\EstudioEmpirico.cpp(843,150): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+  FAA_Prac4.cpp
+  GeneraVectores.cpp
+  Generando código...
+  FAA_Prac4.vcxproj -> C:\Users\javie\Documents\Github\UNI\FAA_Prac4\x64\Debug\FAA_Prac4.exe

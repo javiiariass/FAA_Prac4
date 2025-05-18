@@ -1,9 +1,0 @@
-Caso de Prueba,Algoritmo,Tamano Array,Elemento Buscado,Indice Esperado,Indice Obtenido,Tiempo (us),Correcto
-"Interpolacion - Uniforme",Interpolacion,1000,514,500,502,0,NO
-"Binaria - Uniforme (Ref)",Binaria,1000,514,500,502,0,NO
-"Interpolacion - Uniforme Inexistente",Interpolacion,1000,1000,-1,-1,0,SI
-"Binaria - Uniforme Inexistente (Ref)",Binaria,1000,1000,-1,-1,0,SI
-"Interpolacion - No Uniforme",Interpolacion,1000,65,499,499,1,SI
-"Binaria - No Uniforme (Ref)",Binaria,1000,65,499,499,0,SI
-"Interpolacion - No Uniforme Inexistente",Interpolacion,1000,564,-1,-1,0,SI
-"Binaria - No Uniforme Inexistente (Ref)",Binaria,1000,564,-1,-1,0,SI

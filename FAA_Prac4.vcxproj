@@ -140,10 +140,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AlgoritmosBusqueda.cpp" />
+    <ClCompile Include="AlgoritmosOrdenacion.cpp" />
+    <ClCompile Include="EstudioEmpirico.cpp" />
+    <ClCompile Include="ExperimentoK.cpp" />
+    <ClCompile Include="ExtraFunciones.cpp" />
     <ClCompile Include="FAA_Prac4.cpp" />
+    <ClCompile Include="GeneraVectores.cpp" />
+    
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AlgoritmosBusqueda.h" />
+    <ClInclude Include="AlgoritmosOrdenacion.h" />
+    <ClInclude Include="EstudioEmpirico.h" />
+    <ClInclude Include="ExperimentoK.h" />
+    <ClInclude Include="ExtraFunciones.h" />
+    <ClInclude Include="GeneraVectores.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

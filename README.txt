@@ -1,0 +1,1 @@
+Si dejas los valores actuales de talla inicial, final, incremento,etc que hay en el main, la función 10 (MergesortHibrido) tarda un rato, no es que no funcione.
